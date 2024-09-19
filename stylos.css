@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text text-decoration: none;
+    list-style: none;    
+}
+
+h1{ font-size: 70;
+}
+header{ 
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.primerencabezado{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.titulo{
+    color: red;
+    font-weight: 700;
+    padding-right: 8rem;
+    padding-left: 30rem;
+}
+.buscador{
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+.buscador .buscador2{
+    width: 250px;
+    height: 30px;
+    font-size: 100%;
+    padding: 15px;
+    border: 2px solid blue;
+    border-radius: 20px, 20px, 20px, 20px;    
+}
+.botonbuscar{
+    width: 30px;
+    height: 27px;
+    border: 2px darkblue;
+}
+.botonbuscar .botonbuscar2{
+    width: 30px;
+    height: 27px;
+}
+.cont_busc{
+    display: flex;
+    align-items: center;
+
+}
+.cont_busc img{
+    width: 35px;
+    height: 35px;
+    padding-right: 10px;
+
+}
+.favorito1{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border-radius: 50%;
+}
+.mercado1{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    float: left;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border-radius: 50%;
+}
+.menu_encabezado .navegador ul li{
+    display: inline;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.menu_encabezado .navegador ul{
+    text-align: center;
+    margin-top: 13px;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    background-color: antiquewhite;
+}
+.menu_encabezado .navegador ul li a{
+    font-size: 18px;
+    font-weight: 530;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    padding: 2px 7px 2px 7px;
+
+}
+.menu_encabezado .navegador ul li a:hover{
+    color: lightyellow;
+}
+.portada_tunel{
+    width: 100%;
+    height: 25rem;
+} 
+.contenido_portada{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: yellow;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: center;
+    z-index: 999;
+}
+.titulo{
+    font-size: 2.5em;
+    margin: 10px;
+}
+.portadatexto{
+    font-size: 1.5em;
+    margin: 45px;
+}
+.libros{
+    padding: 5em 3em;
+}
+.titulo_1{
+    text-align: left;
+    margin-bottom: 0.7rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+}
+.tarjeta{
+    position: relative;
+    display: flex;
+    -ms-flex-flow: column;
+    flex-wrap: wrap;
+    transition: 300ms ease-in-out;
+    /* */
+}
+.libros .tarjeta:hover{
+    transform: scale(1.05);
+}
+.img_libro{
+    width: 180px;
+    height: 300px;    
+}
+.tarjeta_txt{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    padding: 1.5em 4em;
+    text-align: center;
+}
+.tarjeta_txt .boton{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    font-size: 0.8em;
+    background: brown;
+}
+.boton{
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border-radius: 0.3em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+}
+.libros{
+    max-width: 280px;
+    vertical-align: top;
+    background: lightpink;
+    padding: 10px 0px 20px 0;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.titulo_2{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+}
+.mas_libros{
+    display: block;
+    padding: 5em 3em;
+}
+.mov_libros{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.libros_mas{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    margin-right: 10px;
+}
+.carrusel_libros{
+    display: flex;
+    overflow-x: scroll;
+    padding: 0.5em;  
+}
+.box_compra{
+    display: flex;
+}
+div .box_compra{
+    padding: 1px;
+    flex-flow: row;
+    gap: 2em;
+}
+.box_compra .precio{
+    color: brown;
+    font-size: 18px;
+}
+.tarjeta_txt .boton_compra{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    font-size: 0.7em;
+    background: brown;
+    border: 1px brown;
+} 
+.boton_compra {
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border-radius: 0.3em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+}
+
